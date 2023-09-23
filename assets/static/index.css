@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow-x: hidden;
+}
+
+.title{
+    color: blue;
+}
+.hero-size {
+    height: 85vh;
+}
+
+@media screen and (max-width: 400px){
+    .hero-size {
+        height: 100%;
+    }
+
+       
+}
